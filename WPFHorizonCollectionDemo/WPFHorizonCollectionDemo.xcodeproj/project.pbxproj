@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7AD08E318DA94E900276C37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD08E218DA94E900276C37 /* Foundation.framework */; };
+		F7AD08E518DA94E900276C37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD08E418DA94E900276C37 /* CoreGraphics.framework */; };
+		F7AD08E718DA94E900276C37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD08E618DA94E900276C37 /* UIKit.framework */; };
+		F7AD08ED18DA94E900276C37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7AD08EB18DA94E900276C37 /* InfoPlist.strings */; };
+		F7AD08EF18DA94E900276C37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD08EE18DA94E900276C37 /* main.m */; };
+		F7AD08F318DA94E900276C37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD08F218DA94E900276C37 /* AppDelegate.m */; };
+		F7AD08F518DA94E900276C37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AD08F418DA94E900276C37 /* Images.xcassets */; };
+		F7AD08FC18DA94E900276C37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD08FB18DA94E900276C37 /* XCTest.framework */; };
+		F7AD08FD18DA94E900276C37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD08E218DA94E900276C37 /* Foundation.framework */; };
+		F7AD08FE18DA94E900276C37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD08E618DA94E900276C37 /* UIKit.framework */; };
+		F7AD090618DA94E900276C37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7AD090418DA94E900276C37 /* InfoPlist.strings */; };
+		F7AD090818DA94E900276C37 /* WPFHorizonCollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD090718DA94E900276C37 /* WPFHorizonCollectionDemoTests.m */; };
+		F7AD091418DA952B00276C37 /* WPFHorizonCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD091318DA952B00276C37 /* WPFHorizonCollectionView.m */; };
+		F7AD091718DAA94D00276C37 /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD091618DAA94D00276C37 /* DemoController.m */; };
+		F7AD091A18DAAE8300276C37 /* WPFTemperatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD091918DAAE8300276C37 /* WPFTemperatureCell.m */; };
+		F7AD091D18DAAFB600276C37 /* WPFHorizonCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD091C18DAAFB600276C37 /* WPFHorizonCollectionViewLayout.m */; };
+		F7AD092018DAB7C200276C37 /* WPFCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD091F18DAB7C200276C37 /* WPFCollectionReusableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7AD08FF18DA94E900276C37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AD08D718DA94E900276C37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AD08DE18DA94E900276C37;
+			remoteInfo = WPFHorizonCollectionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7AD08DF18DA94E900276C37 /* WPFHorizonCollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPFHorizonCollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AD08E218DA94E900276C37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7AD08E418DA94E900276C37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7AD08E618DA94E900276C37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7AD08EA18DA94E900276C37 /* WPFHorizonCollectionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPFHorizonCollectionDemo-Info.plist"; sourceTree = "<group>"; };
+		F7AD08EC18DA94E900276C37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7AD08EE18DA94E900276C37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7AD08F018DA94E900276C37 /* WPFHorizonCollectionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPFHorizonCollectionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F7AD08F118DA94E900276C37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7AD08F218DA94E900276C37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7AD08F418DA94E900276C37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7AD08FA18DA94E900276C37 /* WPFHorizonCollectionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPFHorizonCollectionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AD08FB18DA94E900276C37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7AD090318DA94E900276C37 /* WPFHorizonCollectionDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPFHorizonCollectionDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F7AD090518DA94E900276C37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7AD090718DA94E900276C37 /* WPFHorizonCollectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPFHorizonCollectionDemoTests.m; sourceTree = "<group>"; };
+		F7AD091218DA952B00276C37 /* WPFHorizonCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFHorizonCollectionView.h; sourceTree = "<group>"; };
+		F7AD091318DA952B00276C37 /* WPFHorizonCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFHorizonCollectionView.m; sourceTree = "<group>"; };
+		F7AD091518DAA94D00276C37 /* DemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
+		F7AD091618DAA94D00276C37 /* DemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoController.m; sourceTree = "<group>"; };
+		F7AD091818DAAE8300276C37 /* WPFTemperatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFTemperatureCell.h; sourceTree = "<group>"; };
+		F7AD091918DAAE8300276C37 /* WPFTemperatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFTemperatureCell.m; sourceTree = "<group>"; };
+		F7AD091B18DAAFB600276C37 /* WPFHorizonCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFHorizonCollectionViewLayout.h; sourceTree = "<group>"; };
+		F7AD091C18DAAFB600276C37 /* WPFHorizonCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFHorizonCollectionViewLayout.m; sourceTree = "<group>"; };
+		F7AD091E18DAB7C200276C37 /* WPFCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFCollectionReusableView.h; sourceTree = "<group>"; };
+		F7AD091F18DAB7C200276C37 /* WPFCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFCollectionReusableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7AD08DC18DA94E900276C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD08E518DA94E900276C37 /* CoreGraphics.framework in Frameworks */,
+				F7AD08E718DA94E900276C37 /* UIKit.framework in Frameworks */,
+				F7AD08E318DA94E900276C37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD08F718DA94E900276C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD08FC18DA94E900276C37 /* XCTest.framework in Frameworks */,
+				F7AD08FE18DA94E900276C37 /* UIKit.framework in Frameworks */,
+				F7AD08FD18DA94E900276C37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7AD08D618DA94E900276C37 = {
+			isa = PBXGroup;
+			children = (
+				F7AD091118DA950A00276C37 /* WPFHorizonCollectionView */,
+				F7AD08E818DA94E900276C37 /* WPFHorizonCollectionDemo */,
+				F7AD090118DA94E900276C37 /* WPFHorizonCollectionDemoTests */,
+				F7AD08E118DA94E900276C37 /* Frameworks */,
+				F7AD08E018DA94E900276C37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7AD08E018DA94E900276C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD08DF18DA94E900276C37 /* WPFHorizonCollectionDemo.app */,
+				F7AD08FA18DA94E900276C37 /* WPFHorizonCollectionDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7AD08E118DA94E900276C37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD08E218DA94E900276C37 /* Foundation.framework */,
+				F7AD08E418DA94E900276C37 /* CoreGraphics.framework */,
+				F7AD08E618DA94E900276C37 /* UIKit.framework */,
+				F7AD08FB18DA94E900276C37 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7AD08E818DA94E900276C37 /* WPFHorizonCollectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD08F118DA94E900276C37 /* AppDelegate.h */,
+				F7AD08F218DA94E900276C37 /* AppDelegate.m */,
+				F7AD08F418DA94E900276C37 /* Images.xcassets */,
+				F7AD08E918DA94E900276C37 /* Supporting Files */,
+				F7AD091518DAA94D00276C37 /* DemoController.h */,
+				F7AD091618DAA94D00276C37 /* DemoController.m */,
+			);
+			path = WPFHorizonCollectionDemo;
+			sourceTree = "<group>";
+		};
+		F7AD08E918DA94E900276C37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD08EA18DA94E900276C37 /* WPFHorizonCollectionDemo-Info.plist */,
+				F7AD08EB18DA94E900276C37 /* InfoPlist.strings */,
+				F7AD08EE18DA94E900276C37 /* main.m */,
+				F7AD08F018DA94E900276C37 /* WPFHorizonCollectionDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7AD090118DA94E900276C37 /* WPFHorizonCollectionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD090718DA94E900276C37 /* WPFHorizonCollectionDemoTests.m */,
+				F7AD090218DA94E900276C37 /* Supporting Files */,
+			);
+			path = WPFHorizonCollectionDemoTests;
+			sourceTree = "<group>";
+		};
+		F7AD090218DA94E900276C37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD090318DA94E900276C37 /* WPFHorizonCollectionDemoTests-Info.plist */,
+				F7AD090418DA94E900276C37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7AD091118DA950A00276C37 /* WPFHorizonCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD091218DA952B00276C37 /* WPFHorizonCollectionView.h */,
+				F7AD091318DA952B00276C37 /* WPFHorizonCollectionView.m */,
+				F7AD091818DAAE8300276C37 /* WPFTemperatureCell.h */,
+				F7AD091918DAAE8300276C37 /* WPFTemperatureCell.m */,
+				F7AD091B18DAAFB600276C37 /* WPFHorizonCollectionViewLayout.h */,
+				F7AD091C18DAAFB600276C37 /* WPFHorizonCollectionViewLayout.m */,
+				F7AD091E18DAB7C200276C37 /* WPFCollectionReusableView.h */,
+				F7AD091F18DAB7C200276C37 /* WPFCollectionReusableView.m */,
+			);
+			path = WPFHorizonCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7AD08DE18DA94E900276C37 /* WPFHorizonCollectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AD090B18DA94E900276C37 /* Build configuration list for PBXNativeTarget "WPFHorizonCollectionDemo" */;
+			buildPhases = (
+				F7AD08DB18DA94E900276C37 /* Sources */,
+				F7AD08DC18DA94E900276C37 /* Frameworks */,
+				F7AD08DD18DA94E900276C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPFHorizonCollectionDemo;
+			productName = WPFHorizonCollectionDemo;
+			productReference = F7AD08DF18DA94E900276C37 /* WPFHorizonCollectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7AD08F918DA94E900276C37 /* WPFHorizonCollectionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AD090E18DA94E900276C37 /* Build configuration list for PBXNativeTarget "WPFHorizonCollectionDemoTests" */;
+			buildPhases = (
+				F7AD08F618DA94E900276C37 /* Sources */,
+				F7AD08F718DA94E900276C37 /* Frameworks */,
+				F7AD08F818DA94E900276C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AD090018DA94E900276C37 /* PBXTargetDependency */,
+			);
+			name = WPFHorizonCollectionDemoTests;
+			productName = WPFHorizonCollectionDemoTests;
+			productReference = F7AD08FA18DA94E900276C37 /* WPFHorizonCollectionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7AD08D718DA94E900276C37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = WingPan;
+				TargetAttributes = {
+					F7AD08F918DA94E900276C37 = {
+						TestTargetID = F7AD08DE18DA94E900276C37;
+					};
+				};
+			};
+			buildConfigurationList = F7AD08DA18DA94E900276C37 /* Build configuration list for PBXProject "WPFHorizonCollectionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7AD08D618DA94E900276C37;
+			productRefGroup = F7AD08E018DA94E900276C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AD08DE18DA94E900276C37 /* WPFHorizonCollectionDemo */,
+				F7AD08F918DA94E900276C37 /* WPFHorizonCollectionDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7AD08DD18DA94E900276C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD08ED18DA94E900276C37 /* InfoPlist.strings in Resources */,
+				F7AD08F518DA94E900276C37 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD08F818DA94E900276C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD090618DA94E900276C37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7AD08DB18DA94E900276C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD091D18DAAFB600276C37 /* WPFHorizonCollectionViewLayout.m in Sources */,
+				F7AD091718DAA94D00276C37 /* DemoController.m in Sources */,
+				F7AD092018DAB7C200276C37 /* WPFCollectionReusableView.m in Sources */,
+				F7AD08F318DA94E900276C37 /* AppDelegate.m in Sources */,
+				F7AD08EF18DA94E900276C37 /* main.m in Sources */,
+				F7AD091418DA952B00276C37 /* WPFHorizonCollectionView.m in Sources */,
+				F7AD091A18DAAE8300276C37 /* WPFTemperatureCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD08F618DA94E900276C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD090818DA94E900276C37 /* WPFHorizonCollectionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7AD090018DA94E900276C37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AD08DE18DA94E900276C37 /* WPFHorizonCollectionDemo */;
+			targetProxy = F7AD08FF18DA94E900276C37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7AD08EB18DA94E900276C37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AD08EC18DA94E900276C37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7AD090418DA94E900276C37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AD090518DA94E900276C37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7AD090918DA94E900276C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7AD090A18DA94E900276C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7AD090C18DA94E900276C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPFHorizonCollectionDemo/WPFHorizonCollectionDemo-Prefix.pch";
+				INFOPLIST_FILE = "WPFHorizonCollectionDemo/WPFHorizonCollectionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7AD090D18DA94E900276C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPFHorizonCollectionDemo/WPFHorizonCollectionDemo-Prefix.pch";
+				INFOPLIST_FILE = "WPFHorizonCollectionDemo/WPFHorizonCollectionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7AD090F18DA94E900276C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WPFHorizonCollectionDemo.app/WPFHorizonCollectionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPFHorizonCollectionDemo/WPFHorizonCollectionDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WPFHorizonCollectionDemoTests/WPFHorizonCollectionDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F7AD091018DA94E900276C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WPFHorizonCollectionDemo.app/WPFHorizonCollectionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPFHorizonCollectionDemo/WPFHorizonCollectionDemo-Prefix.pch";
+				INFOPLIST_FILE = "WPFHorizonCollectionDemoTests/WPFHorizonCollectionDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7AD08DA18DA94E900276C37 /* Build configuration list for PBXProject "WPFHorizonCollectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AD090918DA94E900276C37 /* Debug */,
+				F7AD090A18DA94E900276C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AD090B18DA94E900276C37 /* Build configuration list for PBXNativeTarget "WPFHorizonCollectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AD090C18DA94E900276C37 /* Debug */,
+				F7AD090D18DA94E900276C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7AD090E18DA94E900276C37 /* Build configuration list for PBXNativeTarget "WPFHorizonCollectionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AD090F18DA94E900276C37 /* Debug */,
+				F7AD091018DA94E900276C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7AD08D718DA94E900276C37 /* Project object */;
+}
